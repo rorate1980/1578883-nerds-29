@@ -15,7 +15,7 @@ body {
  font-family: "Roboto", "Arial", sans-serif;
  font-size: 14px;
  line-height: 24px;
- font-weight: 700;
+ font-weight: 400;
  color: var(--basic-black);
  background-color: var(--basic--white);
  background-image: url("./img/bg.jpg");
@@ -35,44 +35,28 @@ body {
 
  /* Main navigation */
 
-.main-navigation {
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--basic-black)
-}
 
 .site-navigation {
+  font-size: 16px;
+  line-height: 30px;
   list-style: none;
-}
-
-.site-navigation-studio {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.site-navigation-clients {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.site-navigation-shop {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.site-navigation-contacts {
-  font-size: 16px;
-  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--basic-black)
 }
 
 .site-navigation-basket {
 font-size: 16px;
 line-height: 30px;
+font-weight: 500;
+text-transform: uppercase;
+color: var(--basic-black)
 }
 
 .slogan {
   font-size: 55px;
   line-height: 55px;
+  font-weight: 500;
 }
 
 .slogan-description {
@@ -80,64 +64,28 @@ line-height: 30px;
   line-height: 24px;
 }
 
-.to_learn_more{
+.to-learn-more-write-as {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:var(--basic--white)
 }
+/* we-can */
 
-.we-can-makesites {
-  text-align: left;
-}
-
-.we-can-makesites-headline {
+.we-can-headline {
   font-size: 24px;
   line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.we-can-makesites-title {
+.we-can-title {
   font-size: 16px;
   line-height: 24px;
 }
 
-.we-can-makesites-order {
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.we-can-make-application {
- text-align: center;
-}
-
-.we-can-make-application-headline {
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.we-can-make-application-title {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.we-can-make-application-order {
-  font-size: 16px;
-  line-height: 18px;
-}
-
-.we-can-make-presentation {
-  text-align: right;
-}
-
-.we-can-make-presentation-headline {
-  font-size: 24px;
-  line-height: 30px;
-}
-
-.we-can-make-presentation-title {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.we-can-make-presentation-order {
+.we-can-order {
   font-size: 16px;
   line-height: 18px;
 }
@@ -147,11 +95,14 @@ line-height: 30px;
 .why-are-we-headline {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500;
 }
 
 .why-are-we-title {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 500;
+  color: var(--basic-extra-dark);
 }
 
 /* we-do */
@@ -159,6 +110,7 @@ line-height: 30px;
 .we-do-headline {
   font-size: 16px;
   line-height: 24px;
+  font-weight: bold;
 }
 
 .we-do-list {
@@ -170,24 +122,22 @@ line-height: 30px;
 .how-we-do-headline {
   font-size: 16px;
   line-height: 24px;
+  color: #283136;
 }
 
-.numbers146 {
+.numbers {
   font-size: 45px;
   line-height: 64px;
+  font-weight: bold;
+}
+.skinny {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
 }
 
-.numbers100 {
-  font-size: 45px;
-  line-height: 64px;
-}
 
-.numbers50 {
-  font-size: 45px;
-  line-height: 64px;
-}
-
-.how-we-do-description-values {
+.how-we-do-values {
   font-size: 16px;
   line-height: 18px;
 }
@@ -201,12 +151,9 @@ line-height: 30px;
 .footer-logo {
   font-size: 18px;
   line-height: 30px;
+  font-weight: bold;
 }
 
-.main-footer-to_learn_more {
-  font-size: 16px;
-  line-height: 18px;
-}
 
 .footer-address {
   font-size: 16px;
@@ -221,11 +168,14 @@ line-height: 30px;
 .social {
   list-style: none;
 }
+
 .be-friends-headline {
   font-size: 36px;
   line-height: 36px;
+  font-weight: bold;
 }
 .be-friends-sell {
   font-size: 16px;
   line-height: 22px;
+  color: #444444;
 }
