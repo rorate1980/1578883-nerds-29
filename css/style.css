@@ -6,6 +6,9 @@
   --basic-gray: #666666;
   --basic-dark-gray: #444444;
   --basic--white: #ffffff;
+  --basic--red: #FB565A;
+  --basic--green: #00CA74;
+  --basic-yellow: #EFC849;
 }
 
 body {
@@ -22,11 +25,29 @@ body {
  background-position: top center;
  background-repeat: no-repeat;
 }
-
+/* button color */
 .page a {
   text-decoration: none;
-  color: var(--basic-black)
+  color: var(--basic-black);
 }
+
+a.to-learn-more-write-as {
+  color: var(--basic--white);
+}
+a.we-can-order {
+  color: var(--basic--white);
+}
+.we-can-order-red  {
+  background-color: var(--basic--red);
+}
+.we-can-order-green {
+  background-color: var(--basic--green);
+}
+.we-can-order-yellow {
+  background-color: var(--basic-yellow);
+}
+
+
 
  img {
    max-width: 100%;
@@ -42,7 +63,7 @@ body {
   list-style: none;
   text-transform: uppercase;
   font-weight: 500;
-  color: var(--basic-black)
+  color: var(--basic-black);
 }
 
 .site-navigation-basket {
@@ -50,7 +71,7 @@ font-size: 16px;
 line-height: 30px;
 font-weight: 500;
 text-transform: uppercase;
-color: var(--basic-black)
+color: var(--basic-black);
 }
 
 .slogan {
@@ -62,6 +83,7 @@ color: var(--basic-black)
 .slogan-description {
   font-size: 16px;
   line-height: 24px;
+  color: var(--basic-extra-dark);
 }
 
 .to-learn-more-write-as {
@@ -69,7 +91,9 @@ color: var(--basic-black)
   line-height: 18px;
   font-weight: 500;
   text-align: center;
-  color:var(--basic--white)
+  text-transform: uppercase;
+  background-color: var(--basic--red);
+
 }
 /* we-can */
 
@@ -88,7 +112,11 @@ color: var(--basic-black)
 .we-can-order {
   font-size: 16px;
   line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+
 }
+
 
 /* why-are-we-headline */
 
@@ -111,18 +139,26 @@ color: var(--basic-black)
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
+  text-transform: uppercase;
+  color: var(--basic-extra-dark);
 }
 
 .we-do-list {
   list-style: none;
   font-size: 16px;
   line-height: 24px;
+  color: var(--basic-extra-dark);
 }
 
 .how-we-do-headline {
   font-size: 16px;
   line-height: 24px;
-  color: #283136;
+  color: var(--basic-extra-dark);
+}
+.we-do-list {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--basic-extra-dark);
 }
 
 .numbers {
@@ -140,6 +176,7 @@ color: var(--basic-black)
 .how-we-do-values {
   font-size: 16px;
   line-height: 18px;
+  color: var(--basic-extra-dark);
 }
 
 /* clients */
@@ -177,5 +214,18 @@ color: var(--basic-black)
 .be-friends-sell {
   font-size: 16px;
   line-height: 22px;
-  color: #444444;
+  color: var(--basic-dark-gray);
+}
+.footer-address {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-gray);
+}
+
+/* shop templates */
+
+.navigation-shop {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
