@@ -107,6 +107,7 @@ color: var(--basic-black);
 .we-can-title {
   font-size: 16px;
   line-height: 24px;
+  color: var(--basic-extra-dark);
 }
 
 .we-can-order {
@@ -129,7 +130,6 @@ color: var(--basic-black);
 .why-are-we-title {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
   color: var(--basic-extra-dark);
 }
 
@@ -153,6 +153,7 @@ color: var(--basic-black);
 .how-we-do-headline {
   font-size: 16px;
   line-height: 24px;
+  text-transform: uppercase;
   color: var(--basic-extra-dark);
 }
 .we-do-list {
@@ -221,11 +222,46 @@ color: var(--basic-black);
   line-height: 18px;
   color: var(--basic-gray);
 }
+a.footer-phone {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-gray);
+}
 
 /* shop templates */
 
+.sorting {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
 .navigation-shop {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  list-style: none;
+}
+.gallery-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+.gallery-description {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-gray);
+}
+.gallery-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--basic--white);
+  background-color: var(--basic--red);
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
 }
