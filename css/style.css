@@ -3,8 +3,10 @@
 :root {
   --basic-black: #000000;
   --basic-extra-dark: #283136;
+  --basic-shadowy: #231F20;
   --basic-gray: #666666;
   --basic-dark-gray: #444444;
+  --basic-dark-dark-gray: #EEEEEE;
   --basic--white: #ffffff;
   --basic--red: #FB565A;
   --basic--green: #00CA74;
@@ -241,7 +243,16 @@ a.footer-phone {
   line-height: 18px;
   text-transform: uppercase;
   list-style: none;
+
 }
+.navigation-shop-type {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0);
+  opacity: 0.3;
+}
+
 .gallery-name {
   font-weight: bold;
   font-size: 18px;
@@ -264,4 +275,21 @@ a.footer-phone {
   width: 200px;
   height: 50px;
   border-radius: 3px;
+}
+.pagination {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+.pagination-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  background: var(--basic-dark-dark-gray);
+}
+.pagination-text {
+  width: 260px;
+  height: 50px;
+  border-radius: 3px;
+  background: var(--basic-dark-dark-gray);
 }
