@@ -293,3 +293,6 @@ a.footer-phone {
   border-radius: 3px;
   background: var(--basic-dark-dark-gray);
 }
+.social-list {
+  background: linear-gradient(0deg, #E1E1E1, #E1E1E1);
+}
