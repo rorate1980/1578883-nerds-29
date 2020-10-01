@@ -11,26 +11,23 @@
     <header class="main-header">
       <!--<h1>nЁrd`s  Дизайн-студия Веб-разработки</h1>-->
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип-нёрдс"></a>
-           <ul class="site-navigation">
-             <li>
-               <a class="site-navigation-list" href="studio.html">Студия</a>
-             </li>
-             <li>
-               <a class="site-navigation-list" href="clients.html">Клиенты</a>
-             </li>
-             <li>
-               <a class="site-navigation-list" href="catalog.html">Магазин</a>
-             </li>
-             <li>
-               <a class="site-navigation-list" href="contakts.html">Контакты</a>
-             </li>
-            </ul>
-           <a  class="site-navigation-basket" href="basket.html">Корзина</a>
-           <img  src="img/basket.svg"  height="11" alt="корзина">
-           <img  src="img/basket-wheel.jpg" width="3" height="3" alt="Колесо от корзины левое">
-           <img  src="img/basket-wheel.jpg" width="3" height="3" alt="Колесо от корзины правое">
+        <div class="site-navigation-wrapper">
+        <div><a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="65" alt="логотип-нёрдс"></a></div>
+            <div class="container">
+                   <ul class="site-navigation">
+                     <li><a class="site-navigation-list" href="studio.html">Студия</a></li>
+                     <li><a class="site-navigation-list" href="clients.html">Клиенты</a></li>
+                     <li><a class="site-navigation-list" href="catalog.html">Магазин</a></li>
+                     <li><a class="site-navigation-list" href="contakts.html">Контакты</a></li>
+                   </ul>
+                 <div class="user-navigation">
+                   <a  class="site-navigation-basket" href="basket.html">Корзина</a>
+                   <img  src="img/basket.svg"  height="11" alt="корзина">
+                   <img  src="img/basket-wheel.jpg" width="3" height="3" alt="Колесо от корзины левое">
+                   <img  src="img/basket-wheel.jpg" width="3" height="3" alt="Колесо от корзины првое">
+                 </div>
+              </div>
+            </div>
       </nav>
     </header>
             <main class="wrapper">
@@ -40,6 +37,7 @@
                 <a class="to-learn-more-write-as" href="to_learn_more.html">Узнать больше</a>
                 <section class="features">
                 <!--<h2>Что мы умеем</h2>-->
+
                   <div class="we-can">
                     <h3 class="we-can-headline">Веб-сайты</h3>
                     <p class="we-can-title">Мир никогда не будет прежним после того как увидт ваш сайт</p>
@@ -58,8 +56,10 @@
                     <a class="we-can-order we-can-order-yellow" href="order.html">Заказать</a>
                     <img class= "we-can-illustration3" src="img/illustration-31.png" width="300" height="146" alt="иллюстрация3">
                   </div>
+
                 </section>
-                <section>
+                <section class="why">
+                <div class="why-are-we-left">
                    <div class="why-are-we">
                      <p class="why-are-we-headline">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
                      <p class="why-are-we-title">Исповедуем принципы минимализма и чистоты.
@@ -74,6 +74,8 @@
                         <li class="we-do-presentation">Слайдшоу и видео для корпоративных презентаций</li>
                      </ul>
                    </div>
+                </div>
+                  <div class="how-we-do-right">
                    <div class="how-we-do">
                       <h3 class="how-we-do-headline">с 2004 года Любим точность во всем:</h3>
                       <img src="img/nerds-illustration1.png" width="360" height="208" alt="нердс иллюстрация" >
@@ -90,22 +92,23 @@
                            <td class="how-we-do-values">Минимальная предоплата</td>
                         </tr>
                      </table>
+                   </div>
                    </section>
-                   <section>
+                   <section class="container-clients">
                    <!--<h3>Нам доверяют</h3>-->
                       <ul class="clients">
-                        <li class="clients-list-all">
+                        <div><li class="clients-list-all">
                           <a class="clients-htmlacademy clients-list" href><img src="img/logo-htmlacademy.svg" width="199" height="68" alt="htmlacademy"></a>
-                        </li>
-                        <li class="clients-list">
+                        </li></div>
+                        <div><li class="clients-list">
                           <a class="clients-borodinsky clients-list" href><img src="img/logo-borodinsky.png" width="209" height="90"  alt="borodinsky"></a>
-                        </li>
-                        <li class="clients-list">
+                        </li></div>
+                        <div><li class="clients-list">
                           <a class="clients-pink clients-list" href><img src="img/logo-pink.png" width="185" height="52" alt="pink"></a>
-                        </li>
-                        <li class="clients-list">
+                        </li></div>
+                        <div><li class="clients-list">
                           <a class="clients-mishka clients-list" href><img src="img/logo-mishka.png" width="173" height="84" alt="mishka"></a>
-                        </li>
+                        </li></div>
                        </ul>
                      </section>
     </main>

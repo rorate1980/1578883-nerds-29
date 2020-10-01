@@ -76,6 +76,53 @@ text-transform: uppercase;
 color: var(--basic-black);
 }
 
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/** logo **/
+.main-header {
+  outline: 5px solid rgba(0, 255, 0, 0.3);
+}
+.main-header-logo {
+  outline: 5px solid rgba(255, 0, 0, 0.3);
+  outline-offset: -5px;
+}
+
+.user-navigation {
+  outline: 5px solid rgba(0, 255, 255, 0.3);
+  outline-offset: -5px;
+}
+.site-navigation {
+  outline: 5px solid rgba(0, 0, 255, 0.3);
+  outline-offset: -5px;
+
+}
+
+/** features   we can **/
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.why {
+  display: flex;
+  }
+.container-clients {
+  display: flex;
+}
+
+
+
+
+
+
+
 .slogan {
   font-size: 55px;
   line-height: 55px;
