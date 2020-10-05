@@ -91,29 +91,27 @@ color: var(--basic-black);
 /** logo **/
 
 
-.block-1 {
+.container-main {
   background: #eeeeee;
   outline: 1px solid green;
 
 }
-
 .main-header {
-
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 20px;
-  outline: 1px solid red;
+  background: #eeeeee;
+  outline: 1px solid green;
 }
+
 
 .container {
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
   width: 1200px;
   padding: 0 20px;
   outline: 1px solid red;
 }
 
+.block2 {
+
+}
 
 
 
@@ -126,36 +124,27 @@ color: var(--basic-black);
 .features {
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 20px;
-  outline: 1px solid red;
+
 }
 
 .why {
   display: flex;
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 20px;
-  outline: 1px solid red;
 
   }
 .container-clients {
   display: flex;
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 20px;
-  outline: 1px solid red;
+
 }
 
-.main-footer {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 20px;
-  outline: 1px solid red;
+.footer-wrapper {
+  display: flex;
+
 }
 
-
+.map {
+  display: block;
+  text-align: center;
+}
 
 
 
