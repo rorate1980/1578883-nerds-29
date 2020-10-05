@@ -89,46 +89,71 @@ color: var(--basic-black);
 }
 
 /** logo **/
-.main-header {
-  outline: 5px solid rgba(0, 255, 0, 0.3);
-}
-.main-header-logo {
-  outline: 5px solid rgba(255, 0, 0, 0.3);
-  outline-offset: -5px;
+
+
+.block-1 {
+  background: #eeeeee;
+  outline: 1px solid green;
+
 }
 
-.user-navigation {
-  outline: 5px solid rgba(0, 255, 255, 0.3);
-  outline-offset: -5px;
-}
-.site-navigation {
-  outline: 5px solid rgba(0, 0, 255, 0.3);
-  outline-offset: -5px;
+.main-header {
+
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
 }
 
 .container {
-margin: 0 auto;
-width: 1200px;
-padding: 0 20px;
-outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
 }
+
+
+
+
+
+
+
+
 /** features   we can **/
 
 .features {
   display: flex;
   justify-content: space-around;
-
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
 }
 
 .why {
   display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
 
   }
 .container-clients {
   display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
 }
 
-
+.main-footer {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 20px;
+  outline: 1px solid red;
+}
 
 
 
