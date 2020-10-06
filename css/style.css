@@ -65,12 +65,14 @@ a.we-can-order {
 
 
 .site-navigation {
+  display: flex;
   font-size: 16px;
   line-height: 30px;
   list-style: none;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--basic-black);
+
 }
 
 .site-navigation-basket {
@@ -109,7 +111,9 @@ color: var(--basic-black);
   outline: 1px solid red;
 }
 
-.block2 {
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -131,7 +135,7 @@ color: var(--basic-black);
   display: flex;
 
   }
-.container-clients {
+.clients {
   display: flex;
 
 }
