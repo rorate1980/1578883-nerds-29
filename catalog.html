@@ -103,12 +103,13 @@
       <div class="form">
         <section class="filter">
            <h2>Стоимость</h2>
+          <input type="range" min="0" max="15000" step="1000">
            <form class="filter-option" action="#">
              <fieldset>
                <legend>Сетка:</legend>
                <p class="filter-price">
                  <label>
-                   <input type="radio" name="option" value="1">
+                   <input type="radio" name="option" value="1" checked>
                    Адаптивная
                  </label>
                  <label>
@@ -125,7 +126,7 @@
                <legend>Особенности:</legend>
                <p class="filter-brands">
                  <label>
-                   <input type="checkbox" name="option-slider" value="1">
+                   <input type="checkbox" name="option-slider" value="1" checked>
                    Слайдер
                  </label>
                  <label>
@@ -133,7 +134,7 @@
                    Блок преимуществ
                  </label>
                  <label>
-                   <input type="checkbox" name="option-news" value="1">
+                   <input type="checkbox" name="option-news" value="1" checked>
                    Новости
                  </label>
                  <label>
