@@ -114,11 +114,19 @@ color: var(--basic-black);
 .gallery {
   display: flex;
   flex-wrap: wrap;
+}
+.gallery-container-main {
+  display: flex;
 
 }
 
+.form {
+  width: 260px;
+  height: 700px;
+  outline: 1px solid red;
+  order: 1;
 
-
+}
 
 
 
@@ -372,3 +380,5 @@ a.footer-phone {
 .social-list {
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1);
 }
+
+/* form in catalog*/
