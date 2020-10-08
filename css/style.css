@@ -110,27 +110,30 @@ color: var(--basic-black);
   padding: 0 20px;
   outline: 1px solid red;
 }
-
+.gallery li {
+  width: 360px;
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
 }
 .gallery-container-main {
   display: flex;
-
+  justify-content: space-between;
 }
 
 .form {
   width: 260px;
-  height: 700px;
   outline: 1px solid red;
-  order: 1;
 
 }
 
-
-
-
+.gallery-wrapper {
+  width: 760px;
+}
+.sort {
+  display: flex;
+}
 /** features   we can **/
 
 .features {
