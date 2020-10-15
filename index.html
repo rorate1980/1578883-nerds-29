@@ -8,33 +8,50 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page-body">
-    <header class="main-header">
-      <!--<h1>nЁrd`s  Дизайн-студия Веб-разработки</h1>-->
-      <nav class="main-navigation container">
-        <div class="site-navigation-wrapper">
-          <div><a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="65" alt="логотип-нёрдс"></a></div>
-          <div class="container-navigation">
-            <ul class="site-navigation">
-              <li><a class="site-navigation-list" href="studio.html">Студия</a></li>
-              <li><a class="site-navigation-list" href="clients.html">Клиенты</a></li>
-              <li><a class="site-navigation-list" href="catalog.html">Магазин</a></li>
-              <li><a class="site-navigation-list" href="contakts.html">Контакты</a></li>
-            </ul>
-            <div class="user-navigation">
-              <a  class="site-navigation-basket" href="basket.html">Корзина</a>
-            </div>
-          </div>
+    <header class="main-header ">
+      <nav class="container main-header">
+        <div class="logo"><a href="index.html">
+        <img src="img/nerds-logo.svg" width="160" height="65" alt="логотип нёрдс"></a>
         </div>
+        <!-- как убрать опустьить блок к нижней границе? -->
+        <ul class="site-navigation">
+          <li>
+            <a class="site-navigation-list" href="studio.html">Студия</a>
+          </li>
+          <li>
+            <a class="site-navigation-list" href="clients.html">Клиенты</a>
+          </li>
+          <li>
+            <a class="site-navigation-list" href="shop.html">Магазин</a>
+          </li>
+          <li>
+            <a class="site-navigation-list" href="contakts.html">Контакты</a>
+          </li>
+        </ul>
+        <div class="site-basket">
+          <a  class="site-navigation-basket" href="basket.html">Корзина</a>
+        </div>
+        <!-- иконка карзины не видно , почему?
+      отступ справа, почему? -->
       </nav>
     </header>
     <main class="wrapper">
       <div class="container-main">
         <div class="container">
-          <img src="img/nerds-index-slide1 .png" width="760" height="431" alt="контент оформления">
-          <p class="slogan">Долго, дорого, скрупулёзно.</p>
+          <div class="slider1">
+            <div class="slider-content">
+              <p class="slogan">Долго, дорого, скрупулёзно.</p>
+              <p class="slogan-description">Математически выверенный дизайн для вашего сайта или мобильного  приложения.</p>
+              <!-- 230-248 по моему это не самый удачный подход/ как сделать лучше?  -->
+              <div class="button1">
+                <a class="to-learn-more-write-as" href="to_learn_more.html">Узнать больше</a>
+              </div>
+            </div>
+          <div class="slider-img">
+            <img src="img/nerds-index-slide1 .png" width="760" height="431" alt="контент оформления">
+          </div>
 
-          <p class="slogan-description">Математически выверенный дизайн для вашего сайта или мобильного  приложения.</p>
-          <a class="to-learn-more-write-as" href="to_learn_more.html">Узнать больше</a>
+          </div>
         </div>
       </div>
       <section class="features container">
@@ -151,4 +168,3 @@
       </div>
     </footer>
   </body>
-</html>

@@ -66,15 +66,21 @@ a.we-can-order {
 
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
   line-height: 30px;
   list-style: none;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--basic-black);
+  outline: 1px solid blue;
 
 }
-
+.site-navigation-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .site-navigation-basket {
 font-size: 16px;
 line-height: 30px;
@@ -84,13 +90,46 @@ color: var(--basic-black);
 }
 
 
-.main-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.site-navigation a {
+  display: block;
+  padding: 20px 20px;
+
+}
+.site-basket {
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  margin-top: 35px;
+  outline: 1px solid red;
+  }
+
+.site-basket .site-navigation-basket {
+
+  position: relative;
+}
+.site-navigation-basket::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  background-image: url("img/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+}
+/** logo **/
+.logo {
+  display: block;
+  width: 160px;
+  height: 65px;
+  margin-right: auto;
+  margin-top: auto;
+  outline: px solid green;
+  box-sizing: border-box;
+
 }
 
-/** logo **/
+
 
 
 .container-main {
@@ -99,6 +138,7 @@ color: var(--basic-black);
 
 }
 .main-header {
+  display: flex;
   background: #eeeeee;
   outline: 1px solid green;
 }
@@ -110,6 +150,16 @@ color: var(--basic-black);
   padding: 0 20px;
   outline: 1px solid red;
 }
+
+.slider1 {
+  display: flex;
+}
+.to-learn-more-write-as {
+
+}
+
+
+
 .gallery li {
   width: 360px;
 }
@@ -148,6 +198,8 @@ color: var(--basic-black);
   }
 .clients {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
 
@@ -182,6 +234,18 @@ color: var(--basic-black);
   text-align: center;
   text-transform: uppercase;
   background-color: var(--basic--red);
+
+}
+.button1 {
+  width: 250px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--basic--red);
+  border-radius: 3px;
 
 }
 /* we-can */
